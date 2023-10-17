@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diesel Consumption Tracker</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+
+</head>
+<body>
+    <h1>Diesel Consumption Tracker</h1>
+    <form id="data-form">
+        <!-- Input fields for date, diesel amount, tank level -->
+        <input type="date" id="date" placeholder="Date" required>
+        <input type="number" id="diesel-amount" placeholder="Diesel Amount (liters)" required>
+        <input type="number" id="tank-level" placeholder="Tank Level (%)">
+        <button type="submit">Submit</button>
+    </form>
+   
+    <div id="history">
+        <h2>Consumption History</h2>
+        <ul id="consumption-list">
+            <!-- Consumption entries will be inserted here -->
+        </ul>
+    </div>
+<script src="../js/main.js"></script>
+
+</body>
+</html>
+
+
+
+
